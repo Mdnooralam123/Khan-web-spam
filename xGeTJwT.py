@@ -65,14 +65,14 @@ def xJwT(a, o):
         
         PyL = bytes.fromhex(EnC_AEs(dT.hex()))
         r = requests.Session().post(
-            "https://loginbp.ggpolarbear.com/MajorLogin",
+            "https://loginbp.ggwhitehawk.com/MajorLogin",
             headers={
                 "Expect": "100-continue",
                 "X-Unity-Version": "2018.4.11f1",
                 "X-GA": "v1 1",
                 "ReleaseVersion": "OB54",
                 "Authorization": "Bearer ",
-                "Host": "loginbp.ggpolarbear.com"
+                "Host": "loginbp.ggwhitehawk.com"
             },
             data=PyL,
             verify=False

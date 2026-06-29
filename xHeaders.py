@@ -49,7 +49,7 @@ def GeT_Name(uid , Token):
     url = "https://clientbp.common.ggbluefox.com/GetPlayerPersonalShow"
     headers = {
         'X-Unity-Version': '2018.4.11f1',
-        'ReleaseVersion': 'OB54',
+        'ReleaseVersion': 'OB53',
         'Content-Type': 'application/x-www-form-urlencoded',
         'X-GA': 'v1 1',
         'Authorization': f'Bearer {Token}',
@@ -74,7 +74,7 @@ def GeT_PLayer_InFo(uid , Token):
     url = "https://clientbp.common.ggbluefox.com/GetPlayerPersonalShow"
     headers = {
         'X-Unity-Version': '2018.4.11f1',
-        'ReleaseVersion': 'OB54',
+        'ReleaseVersion': 'OB53',
         'Content-Type': 'application/x-www-form-urlencoded',
         'X-GA': 'v1 1',
         'Authorization': f'Bearer {Token}',
@@ -156,7 +156,7 @@ def DeLet_Uid(id , Tok):
     url = 'https://clientbp.common.ggbluefox.com/RemoveFriend'
     headers = {
         'X-Unity-Version': '2018.4.11f1',
-        'ReleaseVersion': 'OB54',
+        'ReleaseVersion': 'OB53',
         'Content-Type': 'application/x-www-form-urlencoded',
         'X-GA': 'v1 1',
         'Authorization': f'Bearer {Tok}',
