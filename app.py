@@ -1786,7 +1786,7 @@ class FF_CLient():
         return None, None, None, None
         
     def ToKen_GeneRaTe(self, Access_ToKen, Access_Uid):
-        self.UrL = "https://loginbp.ggwhitehawk.com/MajorLogin"
+        self.UrL = "https://loginbp.ggpolarbear.com/MajorLogin"
         self.HeadErs = {
             'X-Unity-Version': '2022.3.47f1',
             'ReleaseVersion': 'OB54',
@@ -1794,7 +1794,7 @@ class FF_CLient():
             'X-GA': 'v1 1',
             'Content-Length': '928',
             'User-Agent': 'UnityPlayer/2022.3.47f1 (UnityWebRequest/1.0, libcurl/8.5.0-DEV)',
-            'Host': 'loginbp.ggwhitehawk.com',
+            'Host': 'loginbp.ggpolarbear.com',
             'Connection': 'Keep-Alive',
             'Accept-Encoding': 'deflate, gzip'
         }   

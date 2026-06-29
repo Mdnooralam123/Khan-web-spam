@@ -7,3 +7,4 @@ protobuf
 psutil
 urllib3
 protobuf-decoder
+gunicorn
